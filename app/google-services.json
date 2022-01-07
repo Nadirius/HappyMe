@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "65720719065",
+    "project_id": "happynessstarthere",
+    "storage_bucket": "happynessstarthere.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65720719065:android:8b6c965abdc4ffa90cd0c8",
+        "android_client_info": {
+          "package_name": "ch.hevs.ig.android.zemrani.hackathon.HappynessWeather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65720719065-57l2v59r93vmmlr5knugm5enkdh4aeq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhLn4clLglXZqM_c4wmCb76a75rBoFb90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65720719065-57l2v59r93vmmlr5knugm5enkdh4aeq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

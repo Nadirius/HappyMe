@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/login_activity"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/white"
+tools:context=".auth_activities.LoginActivity">
+
+<FrameLayout
+    android:id="@+id/fl_header_image"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/login_header_image_height"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/content_description"
+        android:scaleType="fitXY"
+        android:src="@drawable/login_screens_background"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_design"
+        />
+</FrameLayout>
+
+<ch.hevs.ig.android.zemrani.hackathon.HappynessWeather.customed_widgets.MontSerratTextViewBold
+    android:id="@+id/txt_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="35dp"
+    android:text="@string/welcome"
+    android:textSize="@dimen/textSize_title"
+    android:textColor="@color/colorPrimaryText"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/fl_header_image" />
+
+<com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/til_mail"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="35dp"
+    android:layout_marginEnd="16dp"
+    android:hint="@string/prompt_email"
+    android:textColorHint="@color/colorSecondaryText"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/txt_title"
+    >
+
+    <ch.hevs.ig.android.zemrani.hackathon.HappynessWeather.customed_widgets.MontSerratEditTextRegular
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:padding="@dimen/et_padding"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/et_textSize"
+        tools:text="~~~@gmail.com"/>
+</com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/til_password"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="16dp"
+    android:hint="@string/prompt_password"
+    android:textColorHint="@color/colorSecondaryText"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/til_mail">
+
+    <ch.hevs.ig.android.zemrani.hackathon.HappynessWeather.customed_widgets.MontSerratEditTextRegular
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:padding="@dimen/et_padding"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/et_textSize"
+        tools:text="123456" />
+</com.google.android.material.textfield.TextInputLayout>
+
+<ch.hevs.ig.android.zemrani.hackathon.HappynessWeather.customed_widgets.MontSerratTextViewBold
+    android:id="@+id/txt_forgot_password"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="16dp"
+    android:foreground="?attr/selectableItemBackground"
+    android:padding="@dimen/clickable_text_view_padding"
+    android:text="@string/lbl_forgot_password"
+    android:textColor="@color/colorSecondaryText"
+    android:textSize="@dimen/forgot_password_textSize"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/til_password" />
+
+<ch.hevs.ig.android.zemrani.hackathon.HappynessWeather.customed_widgets.MontSerratButtonBold
+    android:id="@+id/btn_login"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginEnd="16dp"
+    android:background="@drawable/shape_button_rounded"
+    android:foreground="?attr/selectableItemBackground"
+    android:gravity="center"
+    android:paddingTop="@dimen/btn_padding"
+    android:paddingBottom="@dimen/btn_padding"
+    android:text="@string/btn_lbl_login"
+    android:textColor="@android:color/white"
+    android:textSize="@dimen/btn_textSize"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/txt_forgot_password"
+    tools:targetApi="m" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/btn_login">
+
+    <ch.hevs.ig.android.zemrani.hackathon.HappynessWeather.customed_widgets.MontSerratTextViewRegular
+        android:id="@+id/txt_have_not_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="@dimen/clickable_text_view_padding"
+        android:text="@string/no_account"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="@dimen/lbl_text_view_textSize" />
+
+    <ch.hevs.ig.android.zemrani.hackathon.HappynessWeather.customed_widgets.MontSerratTextViewBold
+        android:id="@+id/txt_sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:padding="@dimen/clickable_text_view_padding"
+        android:text="@string/register"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="@dimen/lbl_text_view_textSize"
+        tools:targetApi="m" />
+</LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

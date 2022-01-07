@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="edit_text_hint_location">Location</string>
+    <string name="add_place_select_current_location_text">SELECT CURRENT LOCATION</string>
+    <string name="text_add_image">ADD A PICTURE OF WHAT MAKES YOU HAPPY AT THIS MOMENT</string>
+    <string name="edit_text_hint_description">Describe your moment or/and current happyness</string>
+    <string name="btn_text_save">SPREAD YOUR HAPPYNESS</string>
+    <string name="edit_text_hint_title">Maybe your happiness state has a title ?</string>
+    <string name="image_selection_failed">Image selection failed</string>
+
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="splash_screen_title">STAY TUNED</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="welcome">"Welcome to Happy Sound App !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="content_description">image</string>
+    <string name="login_title">SIGN IN</string>
+    <string name="et_hint_email_id">Email</string>
+    <string name="et_hint_password">Password</string>
+    <string name="lbl_forgot_password"><u>I forgot my password</u></string>
+    <string name="btn_lbl_login">SIGN IN</string>
+    <string name="no_account">No account ?</string>
+    <string name="register"><u>SIGN UP</u></string>
+
+    <string name="create_an_account">CREATE AN ACCOUNT</string>
+
+    <string name="hint_last_name">Last name</string>
+    <string name="hint_first_name">First name</string>
+    <string name="et_hint_confirm_password">Confirm Password</string>
+
+    <string name="i_agree_to_the_terms_and_condition">I Agree To The <u> Terms &amp; Conditions </u></string>
+    <string name="btn_lbl_register">Register</string>
+
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login"><u>LOGIN</u></string>
+
+    <!--Registration validation details-->
+    <string name="err_msg_enter_first_name">Please enter first name.</string>
+    <string name="err_msg_enter_last_name">Please enter last name.</string>
+    <string name="err_msg_enter_email">Please enter email.</string>
+    <string name="err_msg_enter_password">Please enter password.</string>
+    <string name="err_msg_enter_confirm_password">Please enter confirm password.</string>
+    <string name="err_msg_password_and_confirm_password_mismatch">Password and confirm password does not match.</string>
+    <string name="err_msg_agree_terms_and_condition">Please agree terms and condition.</string>
+    <string name="registry_successfull">Well registred. Sign in now.</string>
+    <string name="please_wait">I\'m working… Wait a while….</string>
+    <string name="valid_credentials">Valid credentials</string>
+
+    <!--Forgot Password Activity-->
+    <string name="title_forgot_password">FORGOT PASSWORD?</string>
+    <string name="forgot_password_title_description">Enter your e-mail address we\'ll send you a email to reset your password</string>
+    <string name="btn_lbl_submit">Submit</string>
+    <string name="reset_password_mail_sent_success">Email sent successfully</string>
+
+
+    <!--User Profile Activity-->
+    <string name="title_complete_profile">PLEASE COMPLETE YOUR PROFILE</string>
+    <string name="et_hint_mobile_number">Mobile Number</string>
+    <string name="rb_lbl_male">MALE</string>
+    <string name="rb_lbl_non_binary">NON-BINARY</string>
+    <string name="rb_lbl_female">FEMALE</string>
+    <string name="btn_lbl_save">Save</string>
+    <string name="read_stotage_permission_denied">You denied storage permission. It still enabled from settings</string>
+    <string name="err_msg_enter_mobile_number">Please enter mobile number</string>
+    <string name="msg_profile_updtae_sucess">Profile details updated. Thanks.</string>
+
+    <string name="google_maps_api_key">AIzaSyDhLn4clLglXZqM_c4wmCb76a75rBoFb90</string>
+
+
+    <string name="click_back_again_to_exit">Please click back again to exit.</string>
+    <string name="note_text_no_happy_instant_found_yet_kindly_add_one">No happinees instant Found in this location. Add one if you are living one.</string>
+
+</resources>

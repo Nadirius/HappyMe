@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="add_screen_til_marginTop">5dp</dimen>
+    <dimen name="edit_text_text_size">16sp</dimen>
+    <dimen name="main_content_padding">16dp</dimen>
+    <dimen name="add_place_select_current_location_marginTop">5dp</dimen>
+    <dimen name="add_place_image_shape_radius">3dp</dimen>
+    <dimen name="add_place_select_current_location_padding">10dp</dimen>
+    <dimen name="add_place_select_current_location_textsize">16sp</dimen>
+    <dimen name="add_screen_place_image_size">200dp</dimen>
+    <dimen name="add_screen_place_image_marginTop">15dp</dimen>
+    <dimen name="add_screen_place_image_padding">2dp</dimen>
+    <dimen name="add_screen_text_add_image_marginTop">96dp</dimen>
+    <dimen name="add_screen_text_add_image_padding">10dp</dimen>
+    <dimen name="add_screen_text_add_image_textSize">18sp</dimen>
+    <dimen name="add_screen_btn_save_marginTop">24dp</dimen>
+    <dimen name="button_radius">10dp</dimen>
+    <dimen name="add_screen_btn_save_paddingTopBottom">8dp</dimen>
+    <dimen name="btn_text_size">18sp</dimen>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <dimen name="splash_title_text_size">45sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="button_background_radius">10dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="login_header_image_height">200dp</dimen>
+    <dimen name="login_logo_width_size">220dp</dimen>
+    <dimen name="login_logo_height_size">100dp</dimen>
+    <dimen name="textSize_title">22sp</dimen>
+    <dimen name="et_padding">16dp</dimen>
+    <dimen name="et_textSize">16sp</dimen>
+    <dimen name="clickable_text_view_padding">5dp</dimen>
+    <dimen name="forgot_password_textSize">14sp</dimen>
+    <dimen name="btn_padding">8dp</dimen>
+    <dimen name="btn_textSize">18sp</dimen>
+    <dimen name="lbl_text_view_textSize">16sp</dimen>
+
+    <dimen name="toolbar_title_paddingStart">-25dp</dimen>
+    <dimen name="toolbar_title_text_size">18sp</dimen>
+    <dimen name="txt_terms_condition_marginStart">10dp</dimen>
+    <dimen name="txt_terms_and_condition_textSize">14sp</dimen>
+    <dimen name="button_paddingTop_Bottom">8dp</dimen>
+
+    <dimen name="progress_dialog_content_padding">10dp</dimen>
+    <dimen name="progress_bar_size">50dp</dimen>
+    <dimen name="progress_text_marginStart">16dp</dimen>
+    <dimen name="progress_text_size">16sp</dimen>
+
+    <dimen name="forgot_password_title_textSize">18sp</dimen>
+    <dimen name="forgot_password_title_description_textSize">14sp</dimen>
+
+    <!--User profil activity-->
+    <dimen name="user_image_background_stroke">4dp</dimen>
+    <dimen name="user_image_background_corner_radius">10dp</dimen>
+    <dimen name="profile_user_image_size">150dp</dimen>
+    <dimen name="profile_user_image_marginTop">30dp</dimen>
+    <dimen name="profile_user_photo_margin">3dp</dimen>
+    <dimen name="profile_radio_button_height">40dp</dimen>
+    <dimen name="profile_radio_button_marginStartEnd">3dp</dimen>
+    <dimen name="drawable_radio_button_radius">5dp</dimen>
+    <dimen name="drawable_radio_button_stroke_width">1dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="grey_border_stroke_size">1dp</dimen>
+    <dimen name="grey_border_radius">2dp</dimen>
+    <dimen name="delete_icon_padding">5dp</dimen>
+    <dimen name="rv_item_info_textSize">12sp</dimen>
+    <dimen name="rv_item_info_marginTop">2dp</dimen>
+    <dimen name="rv_item_name_textSize">14sp</dimen>
+    <dimen name="item_image_title_info_marginStart">10dp</dimen>
+    <dimen name="item_image_height">70dp</dimen>
+    <dimen name="item_image_width">80dp</dimen>
+    <dimen name="item_image_padding">2dp</dimen>
+    <dimen name="item_list_padding">10dp</dimen>
+    <dimen name="item_list_marginTop">16dp</dimen>
+    <dimen name="no_data_found_textSize">20sp</dimen>
+    <dimen name="create_new_team_header_image_height">250dp</dimen>
+    <dimen name="create_team_get_icon_padding">16dp</dimen>
+    <dimen name="header_image_height">200dp</dimen>
+    <dimen name="display_layout_image_size">150dp</dimen>
+    <dimen name="display_layout_image_marginTop">-75dp</dimen>
+    <dimen name="display_image_marginTop">3dp</dimen>
+    <dimen name="edit_label_marginStartEnd">10dp</dimen>
+    <dimen name="edit_label_marginTopBottom">5dp</dimen>
+    <dimen name="edit_label_textSize">14sp</dimen>
+    <dimen name="tv_name_marginTop">20dp</dimen>
+    <dimen name="tv_name_textSize">20sp</dimen>
+    <dimen name="tv_info_marginTop">3dp</dimen>
+    <dimen name="tv_info_textSize">16sp</dimen>
+    <dimen name="tv_info_margin">10dp</dimen>
+    <dimen name="tv_info_margin_min">2dp</dimen>
+    <dimen name="no_records_available_text_size">16sp</dimen>
+
+</resources>

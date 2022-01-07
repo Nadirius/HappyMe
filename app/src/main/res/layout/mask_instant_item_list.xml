@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/item_list_marginTop"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/item_list_padding">
+
+    <LinearLayout
+        android:id="@+id/ll_item_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rv_item_image_background"
+        android:padding="@dimen/item_image_padding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_item_image"
+            android:layout_width="@dimen/item_image_width"
+            android:layout_height="@dimen/item_image_height"
+            android:contentDescription="@string/content_description"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_item_details"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/item_image_title_info_marginStart"
+        android:layout_marginEnd="@dimen/item_image_title_info_marginStart"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/ib_view"
+        app:layout_constraintStart_toEndOf="@id/ll_item_image"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ch.hevs.ig.android.zemrani.hackathon.HappynessWeather.customed_widgets.MontSerratTextViewBold
+            android:id="@+id/tv_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/item_value_text_color"
+            android:textSize="@dimen/rv_item_name_textSize"
+            tools:text="Name" />
+
+        <ch.hevs.ig.android.zemrani.hackathon.HappynessWeather.customed_widgets.MontSerratTextViewRegular
+            android:id="@+id/tv_item_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/rv_item_info_marginTop"
+            android:textColor="@color/item_value_text_color"
+            android:textSize="@dimen/rv_item_info_textSize"
+            android:textStyle="bold"
+            tools:text="info" />
+
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ct_instant_happiness"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RatingBar
+                android:id="@+id/rat_hapinness_instant"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:numStars="5"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/ll_instant_happiness_image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/ll_instant_happiness_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/rv_item_image_background"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/item_image_padding"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/iv_instant_happiness_image"
+                    android:layout_width="@dimen/item_image_width"
+                    android:layout_height="@dimen/item_image_height"
+                    android:contentDescription="@string/content_description"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/ib_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/content_description"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:padding="@dimen/delete_icon_padding"
+        android:src="@drawable/ic_baseline_pageview_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ll_item_details"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
